@@ -225,7 +225,7 @@ map = %{}
 list = [1, 2, 3]
 tuple = {1, 2, 3}
 
-"testing if branching is working"
+"testing if branching is working - second test since the branch was not published before the commit/push"
 ```
 
 ## The Integer Module
