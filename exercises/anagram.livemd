@@ -45,6 +45,7 @@ end
 
 ```elixir
 defmodule Anagram do
+<<<<<<< Updated upstream
   @doc """
   Determine if two strings are anagrams.
 
@@ -57,8 +58,29 @@ defmodule Anagram do
     false
 
     iex> Anagram.anagram?("")
+=======
+  @moduledoc """
+  Documentation for `Anagram`.
+>>>>>>> Stashed changes
   """
 
+  @doc """
+  Determine if two strings are anagrams.
+
+  ## Examples
+
+    iex> Anagram.anagram?("abc", "bac")
+    true
+
+    iex> Anagram.anagram?("sit", "its")
+    true
+
+    iex> Anagram.anagram?("cats", "dogs")
+    false
+
+    iex> Anagram.anagram?("robed", "bored")
+    true
+  """
   def anagram?(string1, string2) do
   end
 
